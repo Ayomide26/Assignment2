@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Inter&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@300&family=Montserrat&family=Open+Sans&family=Poppins:wght@500&family=Roboto+Serif:opsz,wght@8..144,300&family=Roboto+Slab&family=Whisper&display=swap');
+body{
+    background-color: #F7FDFC;
+    font-family: sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+
+.goal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+    width: 1150px;
+    margin-inline-start: 70px;
+    margin-inline-end: 100px;
+}
+.img1{
+    width: 80px;
+    height: 80px;
+    margin-left: -8px;
+    
+}
+.first1{
+    color:#000B0A;
+    font-weight:bold;
+    font-size: 30px;
+}
+.first2{
+    color:#737373;
+    font-size: 16px;
+}
+.goal3{
+    height: 590px;
+    width: 610px;
+    background-color: #ffffff;
+    margin-top: 40px;
+}
+.form{
+    padding: 0px 40px;
+}
+.one{
+    display: flex;
+    margin-top: 20px;
+}
+.two{
+    display: flex;
+    margin-top: 20px;
+}
+.three{
+    display: flex;
+}
+label{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #011C34;
+    margin-top: 5px;
+}
+.calend {
+    position: relative;
+    left: 230px;
+    bottom: 35px;
+}
+#fname{
+    margin-top: 5px;
+    width: 238px;
+    height: 48px; 
+    background: transparent;
+    font-size: 14px;
+    caret-color: #d9d9d9;
+    color: #737373;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    outline: none;
+    padding: 0px 10px;
+}
+.myform1{
+    padding-left: 20px;
+}
+#gendr{
+    margin-top: 5px;
+    width: 260px;
+    height: 52px; 
+    background: transparent;
+    font-size: 14px;
+    caret-color: #d9d9d9;
+    color: #737373;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    outline: none;
+    padding: 0px 10px; 
+}
+.single-form{
+    margin-top: 20px; 
+}
+#actity{
+    margin-top: 5px;
+    width: 540px;
+    height: 52px;
+    background: transparent;
+    font-size: 14px;
+    caret-color: #d9d9d9;
+    color: #737373;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    outline: none;
+    padding: 0px 10px;  
+}
+#pass{
+    margin-top: 5px;
+    width: 518px;
+    height: 47px;
+    background: transparent;
+    font-size: 14px;
+    caret-color: #d9d9d9;
+    color: #737373;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    outline: none;
+    padding: 0px 10px;  
+}
+.eyel {
+    position: relative;
+    left: 510px;
+    bottom: 35px;
+}
+.myform button{
+    width: 540px;
+    height: 48px;
+    background-color: #2EC4B6;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+  
+}
+
+
+.form-grou p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    margin-top: 12px;
+   
+}
+.form-grou p a{
+    color: #2EC4B6;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    * {
+        margin: none;
+        padding: none;
+    }
+    .goal{
+    display: block;
+    align-items: center;
+    margin-top: 0px;
+    height: 1050px;
+    width: 250px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    }
+    .img1{
+        width: 48px;
+        height: 48px;
+        margin-left: -5px;
+        margin-top: 15px;
+        
+    }
+    .goal3{
+        width: 250px;
+        height: 1050px;
+    }
+    .one{
+        display: block;
+        margin-top: 30px;
+    }
+    .two{
+        display: block;
+        margin-top: 30px;
+      
+    }
+    .three{
+        display: block;
+        margin-top: 30px;
+        
+    }
+    .first1{
+        color:#000B0A;
+        font-weight:bold;
+        font-size: 25px;
+    }
+    .first2{
+        color:#737373;
+        font-size: 15px;
+    }
+    .form{
+       
+        padding: 1px 10px;
+    }
+    .calend {
+        position: relative;
+        left: 205px;
+        bottom: 35px;
+    }
+    #fname{
+        margin-top: 5px;
+        width: 208px;
+        height: 48px; 
+        background: transparent;
+        font-size: 14px;
+        caret-color: #d9d9d9;
+        color: #737373;
+        border: 1px solid rgba(243, 222, 222, 0.4);
+        outline: none;
+        padding: 0px 10px;
+  }
+  .myform1{
+    padding-left: 0px;
+    margin-top: 30px;
+}
+#gendr{
+    margin-top: 5px;
+    width: 228px;
+    height: 52px; 
+    background: transparent;
+    font-size: 14px;
+    caret-color: #d9d9d9;
+    color: #737373;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    outline: none;
+    padding: 0px 10px; 
+}
+.single-form{
+    margin-top: 20px; 
+}
+#actity{
+    margin-top: 5px;
+    width: 230px;
+    height: 52px;
+    background: transparent;
+    font-size: 14px;
+    caret-color: #d9d9d9;
+    color: #737373;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    outline: none;
+    padding: 0px 10px;  
+}
+#pass{
+    margin-top: 5px;
+    width: 210px;
+    height: 47px;
+    background: transparent;
+    font-size: 14px;
+    caret-color: #d9d9d9;
+    color: #737373;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    outline: none;
+    padding: 0px 10px;  
+}
+.eyel {
+    position: relative;
+    left: 205px;
+    bottom: 35px;
+}
+.myform button{
+    width: 231px;
+    height: 48px;
+    background-color: #2EC4B6;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 10px;
+  
+}
+}
